@@ -11,3 +11,17 @@ Task 2:-Create a predictive model which will help theTexas state government team
 Task 3:-
 
 ● Who are the outliers in the salaries?
+
+Used below model to test the data set
+from sklearn.tree import DecisionTreeRegressor,ExtraTreeRegressor
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import GridSearchCV
+from sklearn.linear_model import Lasso, Ridge, ElasticNet
+from sklearn.ensemble import GradientBoostingRegressor,AdaBoostRegressor,RandomForestRegressor
+from sklearn.linear_model import LinearRegression
+from sklearn.svm import SVR
+from sklearn.metrics import mean_absolute_error 
+from sklearn.metrics import mean_squared_error 
+from sklearn.metrics import median_absolute_error,r2_score
+from sklearn.model_selection import GridSearchCV,RandomizedSearchCV
